@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
             getWindow().setBackgroundDrawableResource(R.drawable.fat);
         }
         else if (st<18.5){
-            alert = String.valueOf("You are too slim! ");
+            alert = String.valueOf("You are too slim! !!");
             getWindow().setBackgroundDrawableResource(R.drawable.good);
         }
         else{
